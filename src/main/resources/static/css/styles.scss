@@ -1,9 +1,15 @@
 @import "../bootstrap-4.4.1/scss/bootstrap.scss";
 
+$font-size-base: 1rem;
 $header-jumbotron-height: 300px;
 $primary-color: #0275d8;
-$secondary-backround-color: #f7f7f7;
+$secondary-backround-color: #5E5E5E;
 $section-padding: 80px;
+$text-color-white: #FFF;
+
+.paragraph-white{
+  color: $text-color-white;
+}
 
 //=== Page-Header ===
 
@@ -83,12 +89,28 @@ $section-padding: 80px;
   padding-bottom: $section-padding;
 }
 
+#hidden-picture
+{
+  opacity:0;
+  border-radius: 4%;
+}
+
 .personal{
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .job{
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+
+//=== Bereich über diese Seite ===
+
+.this{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $secondary-backround-color;
+  color: $text-color-white;
 }
 
 
@@ -96,10 +118,40 @@ $section-padding: 80px;
 
 .projects{
   padding-top: $section-padding;
-  background-color: $secondary-backround-color;
+  padding-bottom: $section-padding;
 }
 
 .paragraph{
   padding-bottom: $section-padding;
 }
 
+
+//=== Kontakt ===
+
+.contact{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $secondary-backround-color;
+  color: $text-color-white;
+
+
+  .button{
+    background-color: $primary-color;
+    color: $text-color-white;
+  }
+
+    .contact-message{
+      height: 6rem;
+
+      @include media-breakpoint-up(sm) {
+        height: 100%;
+    }
+  }
+}
+
+
+//=== Footer ===
+
+.copyright-text{
+  font-size: .9rem;
+}

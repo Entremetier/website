@@ -9875,6 +9875,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.paragraph-white {
+  color: #FFF;
+}
+
 .page-header {
   background-image: url("/img/header/server-vanilla.jpg");
   background-size: cover;
@@ -9945,21 +9949,56 @@ h3 {
   padding-bottom: 80px;
 }
 
+#hidden-picture {
+  opacity: 0;
+  border-radius: 4%;
+}
+
 .personal {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .job {
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+.this {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #5E5E5E;
+  color: #FFF;
 }
 
 .projects {
   padding-top: 80px;
-  background-color: #f7f7f7;
+  padding-bottom: 80px;
 }
 
 .paragraph {
   padding-bottom: 80px;
+}
+
+.contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #5E5E5E;
+  color: #FFF;
+}
+.contact .button {
+  background-color: #0275d8;
+  color: #FFF;
+}
+.contact .contact-message {
+  height: 6rem;
+}
+@media (min-width: 576px) {
+  .contact .contact-message {
+    height: 100%;
+  }
+}
+
+.copyright-text {
+  font-size: 0.9rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
