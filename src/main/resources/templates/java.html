@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/styles.css" rel="stylesheet" media="screen"/>
+
+    <title>Welcome to my Page</title>
+</head>
+<body>
+<!--    === Header ===-->
+
+    <header class="page-header">
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand nav-item nav-link active" href="index.html">M. Happe<span class="sr-only">(current)</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#aboutMe">Über mich</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projects">Projekte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Kontakt</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="java.html">Java</a>
+                                <a class="dropdown-item" href="#">Spring Framework</a>
+                                <a class="dropdown-item" href="#">HTML/CSS</a>
+                                <a class="dropdown-item" href="#">Bootstrap/Sass</a>
+                                <a class="dropdown-item" href="#">MySQL</a>
+                                <a class="dropdown-item" href="#">Git/GitHub</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="jumbotron header-jumbotron text-center font-italic text-center d-flex flex-column align-items-center">
+                <h2 class="mt-5 pb-3">Herzlich Willkommen!</h2>
+                <h5 class="pb-3">Hier finden Sie einen Überblick über einige Projekte die ich im Rahmen meiner Kurse erstellt habe.</h5>
+                <a class="btn btn-primary" href="#experience" role="button">Mehr anzeigen</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
