@@ -9879,6 +9879,10 @@ h3 {
   color: #FFF;
 }
 
+.jumbotron-other > h5 {
+  margin-top: 2rem;
+}
+
 .page-header {
   background-image: url("/img/header/server-vanilla.jpg");
   background-size: cover;
@@ -10054,6 +10058,18 @@ h3 {
 
 .copyright-text {
   font-size: 0.9rem;
+}
+
+.java-carousel {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.java-list {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #5E5E5E;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=styles.css.map */

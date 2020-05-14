@@ -4,10 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class JavaController {
+public class MySqlController {
 
-    @RequestMapping({"java.html", "java"})
-    public String viewJava(){
-        return "java";
+    @RequestMapping({"mySql", "mySql.html"})
+    public String viewMySql(){
+        return "mySql";
     }
 }

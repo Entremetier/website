@@ -4,10 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class JavaController {
+public class HtmlController {
 
-    @RequestMapping({"java.html", "java"})
+    @RequestMapping({"html-css.html", "html-css"})
     public String viewJava(){
-        return "java";
+        return "html-css";
     }
 }

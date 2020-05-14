@@ -14,6 +14,11 @@ $text-color-white: #FFF;
   color: $text-color-white;
 }
 
+.jumbotron-other > h5{
+
+  margin-top: 2rem;
+}
+
 
 //=== Page-Header ===
 
@@ -222,4 +227,19 @@ $text-color-white: #FFF;
 
 .copyright-text{
   font-size: .9rem;
+}
+
+
+//Java-Bereich
+
+.java-carousel{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.java-list{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $secondary-backround-color;
+  color: #FFF;
 }
