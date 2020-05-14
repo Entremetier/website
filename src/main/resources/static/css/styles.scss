@@ -73,11 +73,11 @@ $text-color-white: #FFF;
   }
 
   @include media-breakpoint-up(md) {
-    height: $header-jumbotron-height + 100px;
+    height: $header-jumbotron-height + 80px;
   }
 
   @include media-breakpoint-up(lg) {
-    height: $header-jumbotron-height + 150px;
+    height: $header-jumbotron-height + 100px;
   }
 }
 
@@ -89,18 +89,82 @@ $text-color-white: #FFF;
   padding-bottom: $section-padding;
 }
 
-#hidden-picture
-{
+.personal {
+  margin-top: 80px;
+}
+
+.job {
+  margin-top: 80px;
+  text-align: right;
+
+  & ~ p{
+    text-align: right;
+  }
+}
+
+#hidden-picture {
   opacity:0;
   border-radius: 4%;
 }
 
-.personal{
-  margin-top: 80px;
+@include media-breakpoint-only(md) {
+
+  .personal {
+    margin-top: 0;
+  }
+
+  .job {
+    margin-top: 0;
+    text-align: right;
+
+    & ~ p{
+      text-align: right;
+    }
+  }
+
+  #hidden-picture{
+    padding-bottom: 3rem;
+  }
 }
 
-.job{
-  margin-top: 80px;
+@include media-breakpoint-only(sm) {
+
+  .personal {
+    margin-top: 0px;
+  }
+
+  .job {
+    margin-top: 3rem;
+    text-align: left;
+
+    & ~ p{
+      text-align: left;
+    }
+  }
+
+  #hidden-picture{
+    display: none;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+
+  .personal {
+    margin-top: 0px;
+  }
+
+  .job {
+    margin-top: 3rem;
+    text-align: left;
+
+    & ~ p{
+      text-align: left;
+    }
+  }
+
+  #hidden-picture{
+    display: none;
+  }
 }
 
 
