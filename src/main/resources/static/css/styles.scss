@@ -7,9 +7,13 @@ $secondary-backround-color: #5E5E5E;
 $section-padding: 80px;
 $text-color-white: #FFF;
 
+
+//=== Global ===
+
 .paragraph-white{
   color: $text-color-white;
 }
+
 
 //=== Page-Header ===
 
@@ -33,7 +37,7 @@ $text-color-white: #FFF;
 }
 
 .navbar {
-   background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-dark .navbar-brand {
@@ -102,7 +106,7 @@ $text-color-white: #FFF;
   }
 }
 
-#hidden-picture {
+#hidden-image {
   opacity:0;
   border-radius: 4%;
 }
@@ -122,7 +126,7 @@ $text-color-white: #FFF;
     }
   }
 
-  #hidden-picture{
+  #hidden-image{
     padding-bottom: 3rem;
   }
 }
@@ -142,7 +146,7 @@ $text-color-white: #FFF;
     }
   }
 
-  #hidden-picture{
+  #hidden-image{
     display: none;
   }
 }
@@ -162,7 +166,7 @@ $text-color-white: #FFF;
     }
   }
 
-  #hidden-picture{
+  #hidden-image{
     display: none;
   }
 }

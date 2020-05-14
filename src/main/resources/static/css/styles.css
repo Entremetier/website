@@ -9961,7 +9961,7 @@ h3 {
   text-align: right;
 }
 
-#hidden-picture {
+#hidden-image {
   opacity: 0;
   border-radius: 4%;
 }
@@ -9979,7 +9979,7 @@ h3 {
     text-align: right;
   }
 
-  #hidden-picture {
+  #hidden-image {
     padding-bottom: 3rem;
   }
 }
@@ -9996,7 +9996,7 @@ h3 {
     text-align: left;
   }
 
-  #hidden-picture {
+  #hidden-image {
     display: none;
   }
 }
@@ -10013,7 +10013,7 @@ h3 {
     text-align: left;
   }
 
-  #hidden-picture {
+  #hidden-image {
     display: none;
   }
 }

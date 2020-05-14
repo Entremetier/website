@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
 
         /* Check the location of each desired element */
-        $('#hidden-picture').each( function(){
+        $('#hidden-image').each( function(){
 
             let bottom_of_object = $(this).offset().top + $(this).outerHeight();
             let bottom_of_window = $(window).scrollTop() + $(window).height();
