@@ -15,8 +15,23 @@ $text-color-white: #FFF;
 }
 
 .jumbotron-other > h5{
-
   margin-top: 2rem;
+}
+
+.active{
+  color: $primary-color;
+}
+
+.portfolio-carousel{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.porfolio-list{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $secondary-backround-color;
+  color: #FFF;
 }
 
 
@@ -230,16 +245,19 @@ $text-color-white: #FFF;
 }
 
 
+//=== Bootstrap-Section ===
+
+
+//=== Git-Section ===
+
+
+//=== HTML-Section ===
+
+
 //Java-Bereich
 
-.java-carousel{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-}
 
-.java-list{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-  background-color: $secondary-backround-color;
-  color: #FFF;
-}
+//=== MySQL-Section ===
+
+
+//=== Spring-Section ===
