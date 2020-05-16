@@ -79,13 +79,13 @@ $active-color: #00bfff;
 
   &:hover{
     color: $primary-color;
-    background: transparent;
+    background: none;
     text-decoration: none;
   }
 }
 
 .navbar-dark .navbar-nav .dropdown-menu{
-  background: transparent;
+  background: none;
   border: none;
 }
 
@@ -129,6 +129,11 @@ $active-color: #00bfff;
 
 
 //=== About Me ===
+
+#aboutMe{
+  background-image: url("/img/index/about-me/powder-sm.jpg");
+  background-repeat: no-repeat;
+}
 
 .personal {
   margin-top: 80px;

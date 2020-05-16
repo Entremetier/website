@@ -9935,12 +9935,12 @@ h3 {
 }
 .navbar-dark .navbar-nav .dropdown-item:hover {
   color: #0275d8;
-  background: transparent;
+  background: none;
   text-decoration: none;
 }
 
 .navbar-dark .navbar-nav .dropdown-menu {
-  background: transparent;
+  background: none;
   border: none;
 }
 
@@ -9979,6 +9979,11 @@ h3 {
   .header-jumbotron {
     height: 400px;
   }
+}
+
+#aboutMe {
+  background-image: url("/img/index/about-me/powder-sm.jpg");
+  background-repeat: no-repeat;
 }
 
 .personal {
