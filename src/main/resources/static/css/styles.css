@@ -9906,6 +9906,10 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.navbar {
+  background-color: transparent;
+}
+
 .brand-name {
   font-size: 1.6rem;
 }
@@ -9913,13 +9917,8 @@ h3 {
 .navbar-dark .navbar-nav .nav-link {
   color: #FFF;
 }
-
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #0275d8;
-}
-
-.navbar {
-  background-color: transparent;
 }
 
 .navbar-dark .navbar-brand {
@@ -9934,7 +9933,6 @@ h3 {
 .navbar-dark .navbar-nav .dropdown-item {
   color: #FFF;
 }
-
 .navbar-dark .navbar-nav .dropdown-item:hover {
   color: #0275d8;
   background: transparent;
@@ -9957,6 +9955,9 @@ h3 {
 
 .navbar-dark .navbar-nav .dropdown .active {
   color: #00bfff;
+}
+.navbar-dark .navbar-nav .dropdown .active:hover {
+  color: #0275d8;
 }
 
 .header-jumbotron {
