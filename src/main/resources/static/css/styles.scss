@@ -3,35 +3,37 @@
 $font-size-base: 1rem;
 $header-jumbotron-height: 300px;
 $primary-color: #0275d8;
-$secondary-backround-color: #5E5E5E;
+$secondary-backround-color: #FAFAFA;
 $section-padding: 80px;
 $text-color-white: #FFF;
+$active-color: #00bfff;
 
 
 //=== Global ===
 
-.paragraph-white{
-  color: $text-color-white;
+.light{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.dark{
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $secondary-backround-color;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.date{
+  float: right;
 }
 
 .jumbotron-other > h5{
   margin-top: 2rem;
 }
 
-.active{
-  color: $primary-color;
-}
-
-.portfolio-carousel{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-}
-
-.porfolio-list{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-  background-color: $secondary-backround-color;
-  color: #FFF;
+.project-title{
+  border-bottom: 1px solid darkgray;
 }
 
 
@@ -45,6 +47,10 @@ $text-color-white: #FFF;
 
 
 //=== Navbar ===
+
+.brand-name{
+  font-size: 1.6rem;
+}
 
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active >
 .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link{
@@ -61,7 +67,7 @@ $text-color-white: #FFF;
 }
 
 .navbar-dark .navbar-brand {
-  padding-top: .2rem;
+  padding-top: .3rem;
   padding-left: 0;
 }
 
@@ -82,6 +88,16 @@ $text-color-white: #FFF;
 .navbar-dark .navbar-nav .dropdown-menu{
   background: transparent;
   border: none;
+}
+
+.navbar-dark .active{
+  color: $active-color;
+}
+
+
+.navbar-dark .navbar-nav .active{
+  background-color: transparent;
+  color: $active-color;
 }
 
 
@@ -108,11 +124,6 @@ $text-color-white: #FFF;
 
 //=== About Me ===
 
-#aboutMe{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-}
-
 .personal {
   margin-top: 80px;
 }
@@ -128,7 +139,7 @@ $text-color-white: #FFF;
 
 #hidden-image {
   opacity:0;
-  border-radius: 4%;
+  border-radius: 3%;
 }
 
 @include media-breakpoint-only(md) {
@@ -194,20 +205,8 @@ $text-color-white: #FFF;
 
 //=== Bereich über diese Seite ===
 
-.this{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-  background-color: $secondary-backround-color;
-  color: $text-color-white;
-}
-
 
 //=== Projekte ===
-
-.projects{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-}
 
 .paragraph{
   padding-bottom: $section-padding;
@@ -216,12 +215,7 @@ $text-color-white: #FFF;
 
 //=== Kontakt ===
 
-.contact{
-  padding-top: $section-padding;
-  padding-bottom: $section-padding;
-  background-color: $secondary-backround-color;
-  color: $text-color-white;
-
+.dark{
 
   .button{
     background-color: $primary-color;
@@ -254,7 +248,13 @@ $text-color-white: #FFF;
 //=== HTML-Section ===
 
 
-//Java-Bereich
+//=== Java-Carousel ===
+
+//.java-titel{
+//  width: 400px;
+//  height: auto;
+//  background-color: red;
+//}
 
 
 //=== MySQL-Section ===

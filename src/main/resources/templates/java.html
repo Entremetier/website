@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
@@ -33,7 +33,7 @@
     <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand nav-item nav-link" href="index.html">M. Happe</a>
+            <a class="navbar-brand nav-item nav-link brand-name" href="index.html">M. Happe</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,12 +50,12 @@
                         <a class="nav-link" href="index.html#contact">Kontakt</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio<span class="sr-only">(current)</span>
+                            Portfolio
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="java.html">Java</a>
+                            <a class="dropdown-item active" href="java.html">Java<span class="sr-only">(current)</span></a>
                             <a class="dropdown-item" href="spring-framework.html">Spring Framework</a>
                             <a class="dropdown-item" href="html-css.html">HTML/CSS</a>
                             <a class="dropdown-item" href="bootstrap-sass.html">Bootstrap/Sass</a>
@@ -76,19 +76,61 @@
 
 </header>
 
+<!--    === Java-Intro ===-->
 
-<!--    === Java-Section ===-->
-
-<section class="portfolio-carousel" id="java-carousel">
+<section class="light" id="java-intro">
 
     <div class="container">
-        <h4 class="text-center font-weight-bold">Java</h4>
-        <p class="text-center font-italic text-muted pb-5">Zusammenfassung des Projektes</p>
-        <article class="pb-5">Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-            Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-            Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-            Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-            Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin. </article>
+        <div class="row">
+            <div class="col-5 mb-5">
+                <h1 class="project-title">Java</h1>
+                <p class="font-italic text-muted mb-5">Desktop Gui<span class="date">Dezember 2019</span></p>
+                <article>Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                </article>
+            </div>
+            <div class="col-7 java-titel mb-5 text-center"><img src="img/java/java-title/paar-white-background.jpg"
+                                                                alt="Java Bild"></div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--    === Java-Overview ===-->
+
+<section class="dark" id="java-overview">
+
+    <div class="container">
+        <div class="java-titel mb-5 text-center"><img src="img/java/java-problem/imac-464737_640.jpg"
+                                                            alt="Java Bild"></div>
+        <div class="col-12 nomarging">
+        <h4 class="problem-title text-center">Die Herausforderung</h4>
+        <p class="font-italic text-center mb-5">Beschreibung des größten Problems</p>
+        <article>So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+            So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+            So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+            So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+            So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+            So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+        </article>
+        </div>
+    </div>
+
+</section>
+
+
+<!--    === Java-Carousel ===-->
+
+<section class="light" id="java-carousel">
+
+    <div class="container">
+
+        <h4 class="problem-title text-center">Welche besonderheiten gibt es noch</h4>
+        <p class="font-italic text-center text-muted mb-5">Beschreibung des größten Problems</p>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -101,7 +143,8 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/this-carousel/backend-spring-springApplication-run-method.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/backend-spring-springApplication-run-method.png"
+                         class="d-block w-100"
                          alt="Bild der Klasse die das Spring Projekt startet.">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Die SpringApplication Klasse</h5>
@@ -109,7 +152,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/backend-spring-controller.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/backend-spring-controller.png" class="d-block w-100"
                          alt="Der Controller für die index.html">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Der Controller für die index.html</h5>
@@ -118,7 +161,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
                          alt="Bootstrap Klassen einer Navbar">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Bootstrap Navbar</h5>
@@ -126,7 +169,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-sass-I.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-sass-I.png" class="d-block w-100"
                          alt="media query mit Sass">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Media Query mit Sass</h5>
@@ -134,7 +177,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-sass-II.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-sass-II.png" class="d-block w-100"
                          alt="Verwenden von Variablen mit Sass">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Variablen in Sass</h5>
@@ -142,7 +185,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/javascript-animate-image.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/javascript-animate-image.png" class="d-block w-100"
                          alt="JavaScript Methode">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>JavaScript</h5>
@@ -166,21 +209,19 @@
 
 <!--    === Java-Liste ===-->
 
-<section class="porfolio-list">
+<section class="dark">
 
     <div class="container">
         <h4 class="col-12 text-center">Dinge die in der Schule dran kamen</h4>
-        <p class="col-12 text-center pb-5">Habe meine Ausbildung mit Diplom abgeschlossen.</p>
+        <p class="col-12 text-center text-muted font-italic pb-5">Habe meine Ausbildung mit Diplom abgeschlossen.</p>
         <div class="row">
             <div class="col-4">
-                <ul>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                </ul>
+               <h4>Über die Ausbildung</h4>
+                <p class="text-muted">Was soll ich hier nur schreiben</p>
+                <article>Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
+                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
+                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
+                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein! </article>
             </div>
             <div class="col-4">
                 <ul>

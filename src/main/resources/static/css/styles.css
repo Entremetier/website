@@ -9875,34 +9875,39 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.paragraph-white {
-  color: #FFF;
+.light {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.dark {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #FAFAFA;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.date {
+  float: right;
 }
 
 .jumbotron-other > h5 {
   margin-top: 2rem;
 }
 
-.active {
-  color: #0275d8;
-}
-
-.portfolio-carousel {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.porfolio-list {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #5E5E5E;
-  color: #FFF;
+.project-title {
+  border-bottom: 1px solid darkgray;
 }
 
 .page-header {
   background-image: url("/img/header/server-vanilla.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.brand-name {
+  font-size: 1.6rem;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link,
@@ -9920,7 +9925,7 @@ h3 {
 }
 
 .navbar-dark .navbar-brand {
-  padding-top: 0.2rem;
+  padding-top: 0.3rem;
   padding-left: 0;
 }
 
@@ -9941,6 +9946,15 @@ h3 {
 .navbar-dark .navbar-nav .dropdown-menu {
   background: transparent;
   border: none;
+}
+
+.navbar-dark .active {
+  color: #00bfff;
+}
+
+.navbar-dark .navbar-nav .active {
+  background-color: transparent;
+  color: #00bfff;
 }
 
 .header-jumbotron {
@@ -9964,11 +9978,6 @@ h3 {
   }
 }
 
-#aboutMe {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .personal {
   margin-top: 80px;
 }
@@ -9983,7 +9992,7 @@ h3 {
 
 #hidden-image {
   opacity: 0;
-  border-radius: 4%;
+  border-radius: 3%;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -10037,37 +10046,19 @@ h3 {
     display: none;
   }
 }
-.this {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #5E5E5E;
-  color: #FFF;
-}
-
-.projects {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .paragraph {
   padding-bottom: 80px;
 }
 
-.contact {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #5E5E5E;
-  color: #FFF;
-}
-.contact .button {
+.dark .button {
   background-color: #0275d8;
   color: #FFF;
 }
-.contact .contact-message {
+.dark .contact-message {
   height: 6rem;
 }
 @media (min-width: 576px) {
-  .contact .contact-message {
+  .dark .contact-message {
     height: 100%;
   }
 }

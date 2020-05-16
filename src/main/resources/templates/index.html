@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
@@ -35,7 +35,7 @@
     <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand nav-item nav-link active" href="index.html">M. Happe<span
+            <a class="navbar-brand nav-item nav-link active brand-name" href="index.html">M. Happe<span
                     class="sr-only">(current)</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,12 +85,33 @@
 
 <!--    === Über mich ===-->
 
-<section id="aboutMe">
+<section class="light" id="aboutMe">
 
     <div class="container">
-        <h4 class="text-center font-weight-bold">Über mich</h4>
-        <p class="text-center text-muted font-italic pb-5">Eigenschaften die meine Persönlichkeit ausmachen und was mir
-            an der Arbeit als Programmierer wichtig ist.</p>
+        <div class="row">
+            <div class="col-12 pr-0 pl-0">
+                <h4 class="text-center font-weight-bold">Über mich</h4>
+                <p class="text-center text-muted font-italic mb-3">Eigenschaften die meine Persönlichkeit ausmachen und
+                    was
+                    mir
+                    an der Arbeit als Programmierer wichtig ist.</p>
+                <p class="mb-5">Mein Name ist Marco Happe und ich befinde mich derzeit auf der Suche nach einer
+                    Anstellung
+                    als Junior
+                    Java Developer in Wien. Seit September 2019 arbeite ich zweimal wöchentlich mit einem Privatlehrer
+                    an
+                    meinen
+                    Fähigkeiten in Java. Darüber hinaus habe ich mehrer Onlinekurse belegt, was in diesen Kursen
+                    vermittelt
+                    wurde präsentiere ich Ihnen auf den nachfolgenden Seiten. Meinen Beruf als Koch musste ich wegen
+                    einer
+                    Lebensmittelallergie aufgeben, das gibt mir jetzt die Möglichkeit mein Hobby zum Beruf zu machen.
+                    Ich hoffe Ihnen gefällt meine Arbeit und Sie kontaktieren mich über das Kontaktformular am Ende
+                    dieser
+                    Seite.
+                </p>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-lg-12 col-xl-4 pl-0 pr-2">
@@ -108,7 +129,7 @@
                 <p class="text-muted">Positiv denkender und kein Schwarzmaler!</p>
             </div>
             <div class="col-lg-12 col-xl-4 text-center pl-0 pr-2">
-                <img id="hidden-image" src="img/about-me/about-me-picture.jpg"></div>
+                <img id="hidden-image" src="img/index/about-me/about-me-picture.jpg"></div>
             <div class="col-lg-12 col-xl-4 pr-0 pl-0">
                 <h2 class="job font-weight-bolder pb-3"><u>fachliches</u></h2>
                 <p class="text-muted">Zukünftiger Junior Developer mit Erfahrung in Java, Spring, Bootstrap, Sass, HTML5
@@ -131,11 +152,11 @@
 
 <!--    === Bereich über diese Seite ===-->
 
-<section id="this" class="this">
+<section id="this" class="dark">
 
     <div class="container">
         <h4 class="text-center font-weight-bold">Über diese Seite</h4>
-        <p class="paragraph-white text-center font-italic pb-5">Mit dieser Webseite möchte ich Ihnen einen Überblick
+        <p class="text-center font-italic pb-5">Mit dieser Webseite möchte ich Ihnen einen Überblick
             meiner Kenntnisse in den Bereichen der Back- und Frontendentwicklung ermöglichen. Bis auf JavaScript ist
             diese Seite meine arbeit. Den JavaScript teil habe ich mir zusammengegoogled und so bearbeitet wie ich
             ihn für meine Zwecke benötige. In Zukunft werde ich aber einen JavaScript Kurs belegen. Die Grundlagen
@@ -153,7 +174,8 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/this-carousel/backend-spring-springApplication-run-method.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/backend-spring-springApplication-run-method.png"
+                         class="d-block w-100"
                          alt="Bild der Klasse die das Spring Projekt startet.">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Die SpringApplication Klasse</h5>
@@ -161,7 +183,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/backend-spring-controller.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/backend-spring-controller.png" class="d-block w-100"
                          alt="Der Controller für die index.html">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Der Controller für die index.html</h5>
@@ -170,7 +192,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
                          alt="Bootstrap Klassen einer Navbar">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Bootstrap Navbar</h5>
@@ -178,7 +200,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-sass-I.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-sass-I.png" class="d-block w-100"
                          alt="media query mit Sass">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Media Query mit Sass</h5>
@@ -187,7 +209,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/frontend-sass-II.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/frontend-sass-II.png" class="d-block w-100"
                          alt="Verwenden von Variablen mit Sass">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Variablen in Sass</h5>
@@ -196,7 +218,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/this-carousel/javascript-animate-image.png" class="d-block w-100"
+                    <img src="img/index/this-carousel/javascript-animate-image.png" class="d-block w-100"
                          alt="JavaScript Methode">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>JavaScript</h5>
@@ -221,7 +243,7 @@
 
 <!--    === Projekte ===-->
 
-<section id="projects" class="projects">
+<section id="projects" class="light">
 
     <div class="container">
         <h4 class="text-center font-weight-bold">Projekte</h4>
@@ -232,18 +254,18 @@
 
             <div class="col mb-4">
                 <div class="card h-100 mb-4">
-                    <img src="img/index-cards/java.jpg" class="card-img-top" alt="Code Abschnitt mit Java Code">
+                    <img src="img/index/index-cards/java.jpg" class="card-img-top" alt="Code Abschnitt mit Java Code">
                     <div class="card-body">
                         <h5 class="card-title text-center">Java</h5>
                         <p class="card-text text-muted">Java, ist die erste Programmiersprache die ich erlernt habe. Ich
                             habe einen Kurs im WIFI Wien besucht und diesen mit sehr gutem Erfolg abgeschlossen.</p>
-                        <a href="java.html#java-carousel" class="card-link">Mehr erfahren</a>
+                        <a href="java.html#java-intro" class="card-link">Mehr erfahren</a>
                     </div>
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card h-100  mb-4">
-                    <img src="img/index-cards/spring-framework.png" class="card-img-top"
+                    <img src="img/index/index-cards/spring-framework.png" class="card-img-top"
                          alt="Code Abschnitt mit Spring Controller">
                     <div class="card-body">
                         <h5 class="card-title text-center">Spring Framework</h5>
@@ -256,7 +278,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100 mb-4">
-                    <img src="img/index-cards/html5.png" class="card-img-top" alt="Code Abschnitt mit HTML5">
+                    <img src="img/index/index-cards/html5.png" class="card-img-top" alt="Code Abschnitt mit HTML5">
                     <div class="card-body">
                         <h5 class="card-title text-center">HTML5 & CSS3</h5>
                         <p class="card-text text-muted">Eine Webseite die mit HTML und CSS erstellt wurde. Diesen Kurs
@@ -267,7 +289,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100 mb-4">
-                    <img src="img/index-cards/bootstrap.png" class="card-img-top" alt="Code Abschnitt mit SASS">
+                    <img src="img/index/index-cards/bootstrap.png" class="card-img-top" alt="Code Abschnitt mit SASS">
                     <div class="card-body">
                         <h5 class="card-title text-center">Bootstrap & Sass</h5>
                         <p class="card-text text-muted">Eine Webseite die mit Bootstrap und Sass erstellt wurde. Auch
@@ -279,7 +301,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100 mb-4">
-                    <img src="img/index-cards/mysql.jpg" class="card-img-top" alt="MySQL Logo">
+                    <img src="img/index/index-cards/mysql.jpg" class="card-img-top" alt="MySQL Logo">
                     <div class="card-body">
                         <h5 class="card-title text-center">MySQL</h5>
                         <p class="card-text text-muted">Eine Übersicht über die Datenbanken mit denen ich gearbeitet
@@ -291,7 +313,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card h-100 mb-4">
-                    <img src="img/index-cards/git-1-300x300.png" class="card-img-top" alt="Github Logo">
+                    <img src="img/index/index-cards/git-1-300x300.png" class="card-img-top" alt="Github Logo">
                     <div class="card-body">
                         <h5 class="card-title text-center">Git & GitHub</h5>
                         <p class="card-text text-muted">Eine Übersicht über die Themen die in meinem Git/GitHub Kurs
@@ -309,7 +331,7 @@
 
 <!--    === Kontakt ===-->
 
-<section id="contact" class="contact">
+<section id="contact" class="dark">
 
     <div class="container">
         <h4 class="text-center font-weight-bold">Kontakt</h4>
