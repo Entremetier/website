@@ -36,6 +36,10 @@ $active-color: #00bfff;
   border-bottom: 1px solid darkgray;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 
 //=== Page-Header ===
 
@@ -188,6 +192,10 @@ $active-color: #00bfff;
     }
   }
 
+  .about-me-paragraph{
+    margin-bottom: 3rem;
+  }
+
   #hidden-image{
     display: none;
   }
@@ -206,6 +214,10 @@ $active-color: #00bfff;
     & ~ p{
       text-align: left;
     }
+  }
+
+  .about-me-paragraph{
+    margin-bottom: 3rem;
   }
 
   #hidden-image{

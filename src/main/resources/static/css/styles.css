@@ -9900,6 +9900,10 @@ h3 {
   border-bottom: 1px solid darkgray;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .page-header {
   background-image: url("/img/header/server-vanilla.jpg");
   background-size: cover;
@@ -10033,6 +10037,10 @@ h3 {
     text-align: left;
   }
 
+  .about-me-paragraph {
+    margin-bottom: 3rem;
+  }
+
   #hidden-image {
     display: none;
   }
@@ -10048,6 +10056,10 @@ h3 {
   }
   .job ~ p {
     text-align: left;
+  }
+
+  .about-me-paragraph {
+    margin-bottom: 3rem;
   }
 
   #hidden-image {
