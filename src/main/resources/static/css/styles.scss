@@ -132,16 +132,14 @@ a:hover{
 }
 
 
+//=== Anschreiben ===
+
+.signature{
+  font-size: 1.2rem;
+}
+
+
 //=== About Me ===
-
-#aboutMe{
-  background-image: url("/img/index/about-me/powder-sm.jpg");
-  background-repeat: no-repeat;
-}
-
-.personal {
-  margin-top: 80px;
-}
 
 .job {
   margin-top: 80px;
@@ -150,11 +148,6 @@ a:hover{
   & ~ p{
     text-align: right;
   }
-}
-
-#hidden-image {
-  opacity:0;
-  border-radius: 3%;
 }
 
 @include media-breakpoint-only(md) {
@@ -172,7 +165,7 @@ a:hover{
     }
   }
 
-  #hidden-image{
+  #image{
     padding-bottom: 3rem;
   }
 }
@@ -196,7 +189,7 @@ a:hover{
     margin-bottom: 3rem;
   }
 
-  #hidden-image{
+  #image{
     display: none;
   }
 }
@@ -220,13 +213,28 @@ a:hover{
     margin-bottom: 3rem;
   }
 
-  #hidden-image{
+  #image{
     display: none;
   }
 }
 
+.team-social-media{
+  color: #000;
+  font-size: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  text-align: center;
+  margin: 0.4rem 0.2rem 0.2rem 0.2rem;
 
-//=== Bereich über diese Seite ===
+  &:hover{
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
 
 
 //=== Projekte ===

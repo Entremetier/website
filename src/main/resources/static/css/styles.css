@@ -9985,13 +9985,8 @@ a:hover {
   }
 }
 
-#aboutMe {
-  background-image: url("/img/index/about-me/powder-sm.jpg");
-  background-repeat: no-repeat;
-}
-
-.personal {
-  margin-top: 80px;
+.signature {
+  font-size: 1.2rem;
 }
 
 .job {
@@ -10000,11 +9995,6 @@ a:hover {
 }
 .job ~ p {
   text-align: right;
-}
-
-#hidden-image {
-  opacity: 0;
-  border-radius: 3%;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -10020,7 +10010,7 @@ a:hover {
     text-align: right;
   }
 
-  #hidden-image {
+  #image {
     padding-bottom: 3rem;
   }
 }
@@ -10041,7 +10031,7 @@ a:hover {
     margin-bottom: 3rem;
   }
 
-  #hidden-image {
+  #image {
     display: none;
   }
 }
@@ -10062,10 +10052,27 @@ a:hover {
     margin-bottom: 3rem;
   }
 
-  #hidden-image {
+  #image {
     display: none;
   }
 }
+.team-social-media {
+  color: #000;
+  font-size: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  text-align: center;
+  margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+}
+.team-social-media:hover {
+  border: 2px solid #0275d8;
+  color: #0275d8;
+  text-decoration: none;
+}
+
 .paragraph {
   padding-bottom: 80px;
 }
