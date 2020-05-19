@@ -32,7 +32,12 @@ $active-color: #00bfff;
   margin-top: 2rem;
 }
 
-.project-title{
+.headline{
+  border-bottom: 1px solid darkgray;
+}
+
+.headline-list{
+  padding-bottom: .4rem;
   border-bottom: 1px solid darkgray;
 }
 
