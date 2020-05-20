@@ -9896,7 +9896,7 @@ h3 {
   margin-top: 2rem;
 }
 
-.headline {
+.headline-project {
   border-bottom: 1px solid darkgray;
 }
 
@@ -10061,7 +10061,7 @@ a:hover {
     display: none;
   }
 }
-.team-social-media {
+.social-media-icon {
   color: #000;
   font-size: 1.5rem;
   border: 2px solid #000;
@@ -10072,7 +10072,7 @@ a:hover {
   text-align: center;
   margin: 0.4rem 0.2rem 0.2rem 0.2rem;
 }
-.team-social-media:hover {
+.social-media-icon:hover {
   border: 2px solid #0275d8;
   color: #0275d8;
   text-decoration: none;
