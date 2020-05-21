@@ -68,7 +68,8 @@
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-other header-jumbotron text-center font-italic text-center d-flex flex-column align-items-center mb-0">
+        <div class="jumbotron jumbotron-other header-jumbotron text-center font-italic text-center d-flex flex-column
+         align-items-center mb-0">
             <h5 class="pt-5 pb-3">Zurück zur Übersicht meines Portfolios.</h5>
             <a class="btn btn-primary" href="index.html#projects" role="button">Mehr anzeigen</a>
         </div>
@@ -86,16 +87,28 @@
         <div class="row">
             <div class="col-5">
                 <h1 class="headline-project">Spring Framework</h1>
-                <p class="font-italic text-muted mb-5">Webprojekt<span class="date">April 2020</span></p>
-                <article>Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
-                    Hier kommt die Beschreibung des Projektes hin. Hier kommt die Beschreibung des Projektes hin.
+                <p class="font-italic text-muted">
+                    Webprojekt<span class="date">April 2020</span>
+                </p>
+                <article>
+                    <p>
+                       Hierbei handelt es sich um die Webseite einer imaginären Tierklinik.
+                    </p>
+                    <p>
+                        Es können die Besitzer mit dem jeweiligen Haustier durch ein Suchfeld aus der Datenbank
+                        herausgesucht werden.
+                        Darüber hinaus können Ärzte mit ihrem jeweiligen Spezialgebieten angezeigt werden.
+                        Neue Besitzer und Haustiere können hinzugefügt werden, werden aber auf Grund der verwendeten H2
+                        Datenbank nicht persistiert.
+                    </p>
+                    <p>
+                        Um Daten zu persistieren muss eine Datenbank, zum Beispiel MySQL, im pom.xml als dependency
+                        eingebunden und in den application.properties konfiguriert werden.
+                    </p>
                 </article>
             </div>
-            <div class="col-5 offset-1 text-center"><img src="img/java/java-title/paar-white-background.jpg"
-                                                         alt="Java Bild"></div>
+            <div class="col-6 offset-1 text-center head-image"><img src="img/spring/spring-title/dog.jpg"
+                                                         alt="Bild von einem Hund"></div>
         </div>
     </div>
 
@@ -214,36 +227,58 @@
 <section class="dark">
 
     <div class="container">
-        <h4 class="col-12 text-center">Dinge die in der Schule dran kamen</h4>
-        <p class="col-12 text-center text-muted font-italic pb-5">Habe meine Ausbildung mit Diplom abgeschlossen.</p>
+        <h4 class="col-12 text-center mb-5">Übersicht einiger Themen die im Kurs vermittelt wurden</h4>
         <div class="row">
             <div class="col-4">
-                <h4 class="headline-list">Über die Ausbildung</h4>
-                <p class="text-muted">Was soll ich hier nur schreiben</p>
-                <article>Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
-                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
-                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
-                    Hier kommt etwas text rein! Hier kommt etwas text rein! Hier kommt etwas text rein!
+                <h4 class="headline-list">Allgemeines über den Kurs</h4>
+                <p class="font-italic text-muted mb-3">
+                    Zeitraum<span class="date">seit November 2019</span>
+                </p>
+                <article>
+                    <p>
+                        Vorraussichtlich werde ich noch ein Jahr benötigen um diesen Kurs so durchzuarbeiten das ich
+                        alles bis ins Detail verstehe.
+                        Das ist eine Folge davon das der Kurs bei Neuerungen des Frameworks ein Update bekommt um das
+                        neueste Wissen zu vermitteln.
+                        Dies hat aber auch den Vorteil das man zukünftig alle Neuerungen für Spring Framework 5 in
+                        diesem Kurs erhält.
+                        Da es mir in manchen Bereichen noch an der nötigen Erfahrung fehlt muss ich manche Dinge im Kurs
+                        erst einmal hinnehmen wie sie sind um die Zusammenhänge im späteren Verlauf zu verstehen.
+                    </p>
                 </article>
             </div>
-            <div class="col-4">
+            <div class="col-4 mt-5 parent">
                 <ul>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
+                    <li>Dependency Injection</li>
+                    <li>SOLID Prinzipien</li>
+                    <li>Thymeleaf</li>
+                    <li>Web Development mit Spring MVC</li>
+                    <li>JPA Data Modeling mit Spring und Hibernate</li>
+                    <li>Project Lombok</li>
+                    <li>Testing</li>
+                    <li>JUnit5</li>
+                    <li>Mockito Mocks</li>
+                    <li>Spring MockMVC</li>
+                    <li>CRUD Operationen mit Spring MVC</li>
+                    <li>Validation</li>
+                    <li>Docker</li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-4 mt-5">
                 <ul>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
+                    <li>CircleCI</li>
+                    <li>MySQL</li>
+                    <li>MySQL und Spring Boot</li>
+                    <li>Spring Data MongoDB</li>
+                    <li>Reactive Programming</li>
+                    <li>Reactive Programming mit Spring und MongoDB</li>
+                    <li>Spring Framework WebFlux</li>
+                    <li>RESTFul WebServices</li>
+                    <li>RESTFul WebServices mit Spring MVC</li>
+                    <li>Swagger mit Spring Boot</li>
+                    <li>RESTFul WebServices mit Spring WebFlux</li>
+                    <li>Spring MVC REST Docs</li>
+                    <li>JMS Messaging</li>
                 </ul>
             </div>
         </div>

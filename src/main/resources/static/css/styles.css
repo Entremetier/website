@@ -9897,6 +9897,7 @@ h3 {
 }
 
 .headline-project {
+  padding-bottom: 0.8rem;
   border-bottom: 1px solid darkgray;
 }
 
@@ -10097,6 +10098,11 @@ a:hover {
 
 .copyright-text {
   font-size: 0.9rem;
+}
+
+.head-image {
+  align-items: flex-end;
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -33,6 +33,7 @@ $active-color: #00bfff;
 }
 
 .headline-project{
+  padding-bottom: .8rem;
   border-bottom: 1px solid darkgray;
 }
 
@@ -291,3 +292,8 @@ a:hover{
 
 
 //=== Spring-Section ===
+
+.head-image {
+  align-items: flex-end;
+  display: flex;
+}
