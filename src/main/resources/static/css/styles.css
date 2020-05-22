@@ -9888,26 +9888,11 @@ h3 {
   border-bottom: 1px solid #DDDDDD;
 }
 
-.date {
-  float: right;
+.link {
+  color: gray;
 }
-
-.jumbotron-other > h5 {
-  margin-top: 2rem;
-}
-
-.headline-project {
-  padding-bottom: 0.8rem;
-  border-bottom: 1px solid darkgray;
-}
-
-.headline-list {
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid darkgray;
-}
-
-a:hover {
-  text-decoration: none;
+.link:hover {
+  color: #0275d8;
 }
 
 .page-header {
@@ -10079,10 +10064,6 @@ a:hover {
   text-decoration: none;
 }
 
-.paragraph {
-  padding-bottom: 80px;
-}
-
 .dark .button {
   background-color: #0275d8;
   color: #FFF;
@@ -10096,13 +10077,31 @@ a:hover {
   }
 }
 
-.copyright-text {
-  font-size: 0.9rem;
+.jumbotron-other > h5 {
+  margin-top: 2rem;
+}
+
+.headline-project {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid darkgray;
+}
+
+.date {
+  float: right;
 }
 
 .head-image {
   align-items: flex-end;
   display: flex;
+}
+
+.headline-list {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid darkgray;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

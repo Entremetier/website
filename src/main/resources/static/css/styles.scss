@@ -24,26 +24,12 @@ $active-color: #00bfff;
   border-bottom: 1px solid #DDDDDD;
 }
 
-.date{
-  float: right;
-}
+.link{
+  color: gray;
 
-.jumbotron-other > h5{
-  margin-top: 2rem;
-}
-
-.headline-project{
-  padding-bottom: .8rem;
-  border-bottom: 1px solid darkgray;
-}
-
-.headline-list{
-  padding-bottom: .4rem;
-  border-bottom: 1px solid darkgray;
-}
-
-a:hover{
-  text-decoration: none;
+  &:hover{
+    color: $primary-color;
+  }
 }
 
 
@@ -245,10 +231,6 @@ a:hover{
 
 //=== Projekte ===
 
-.paragraph{
-  padding-bottom: $section-padding;
-}
-
 
 //=== Kontakt ===
 
@@ -271,29 +253,32 @@ a:hover{
 
 //=== Footer ===
 
-.copyright-text{
-  font-size: .9rem;
+
+//=== Java Template ===
+
+.jumbotron-other > h5{
+  margin-top: 2rem;
 }
 
+.headline-project{
+  padding-bottom: .8rem;
+  border-bottom: 1px solid darkgray;
+}
 
-//=== Bootstrap-Section ===
-
-
-//=== Git-Section ===
-
-
-//=== HTML-Section ===
-
-
-//=== Java-Carousel ===
-
-
-//=== MySQL-Section ===
-
-
-//=== Spring-Section ===
+.date{
+  float: right;
+}
 
 .head-image {
   align-items: flex-end;
   display: flex;
+}
+
+.headline-list{
+  padding-bottom: .4rem;
+  border-bottom: 1px solid darkgray;
+}
+
+a:hover{
+  text-decoration: none;
 }
