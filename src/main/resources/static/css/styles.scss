@@ -274,6 +274,13 @@ $active-color: #00bfff;
   display: flex;
 }
 
+.video-player{
+  width: 640px;
+  height: 360px;
+  outline: none;
+  margin-top: 0;
+}
+
 .headline-list{
   padding-bottom: .4rem;
   border-bottom: 1px solid darkgray;
