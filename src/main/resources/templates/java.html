@@ -128,51 +128,57 @@
 <section class="dark">
 
     <div class="container">
-        <div class="java-titel text-center">
-            <video class="video-player" src="mov/java/java-fun-fight-app.mp4" controls>
-                <p>
-                    Das Video kann leider nicht wiedergegeben werden.
-                </p>
-            </video>
-        </div>
-        <div class="col-12 nomarging text-center">
-            <h4 class="headline-project mb-5">Erläuterung zum Programmverlauf</h4>
-            <article class="description">
-                <p>
-                    Die Werte der einzelnen Objekte werden über Textfelder eingegeben. Die Werte durchlaufen eine
-                    Validierung um die Erfüllung der Vorgaben zu überprüfen.
-                    Die Werte werden in einer List, durch betätigen eines Speichern Buttons, gespeichert.
-                    Sollte ein Feld nicht korrekt ausgefüllt sein, wird in diesem ein Hinweis eingeblendet welcher
-                    Fehler
-                    vorliegt.
-                    Wenn das Feld wieder nicht korrekt ausgefüllt wird, wird ein neuer Hinweis eingeblendet.
-                    Das Übernehmen eines solchen Hinweises, als Wert, ist nicht möglich, da das Programm auch hier einen
-                    Fehler anzeigen wird.
-                    Bei richtiger Eingabe werden alle Werte, durch parsen, zu Strings umgewandelt.
-                </p>
-                <p>
-                    Wenn mehr als ein Objekt in der Liste gespeichert ist kann eine Auswahl von 2 Objekten, egal an
-                    welcher Position in der List, getroffen werden.
-                    Bei mehr oder weniger Objekten wird ein Hinweis auf einem leeren Label angezeigt.
-                    Bei zwei ausgewählten Objekten kann man den "Fight" Button betätigen und das Programm
-                    durchläuft mit den einzelnen Objekten die Serviceklassen.
-                </p>
-                <p>
-                    Dabei werden nicht die einzelnen Werte der Objekte an die jeweilge Serviceklasse übergeben sondern
-                    die Objekte als ganzes, sprich als String Array.
-                    In der jeweiligen Service Klasse werden die benötigten Werte, durch parsen, in int oder double Werte
-                    umgewandelt um sie weiter zu verarbeiten.
-                    In einer if-else Kontrollstruktur oder einer switch Kontrollstruktur werden den Werten Punkte
-                    zugewiesen.
-                    Dieses vorgehen wiederholt sich für die einzelnen Werte der Objekte, im Anschluss werden alle
-                    Ergebnisse der einzelnen Serviceklassen zusammen gerechnet.
-                </p>
-                <p>
-                    In einer weiteren if-else Kontrollstruktur wird das Objekt mir der höchsten Punktzahl ermittelt.
-                    Der Name des Objektes wird im Siegerlabel angezeigt, das Objekt mit der niedrigeren Punktzahl wird
-                    automatisch aus der Liste gelöscht.
-                </p>
-            </article>
+        <div class="row">
+            <div class=" col-12 java-titel text-center">
+                <video class="video-player" src="mov/java/java-fun-fight-app.mp4" controls>
+                    <p>
+                        Das Video kann leider nicht wiedergegeben werden.
+                    </p>
+                </video>
+            </div>
+            <div class="col-12 text-center">
+                <h4 class="headline-project mb-5">Erläuterung zum Programmverlauf</h4>
+                <article class="description">
+                    <p>
+                        Die Werte der einzelnen Objekte werden über Textfelder eingegeben. Die Werte durchlaufen eine
+                        Validierung um die Erfüllung der Vorgaben zu überprüfen.
+                        Die Werte werden in einer List, durch betätigen eines Speichern Buttons, gespeichert.
+                        Sollte ein Feld nicht korrekt ausgefüllt sein, wird in diesem ein Hinweis eingeblendet welcher
+                        Fehler
+                        vorliegt.
+                        Wenn das Feld wieder nicht korrekt ausgefüllt wird, wird ein neuer Hinweis eingeblendet.
+                        Das Übernehmen eines solchen Hinweises, als Wert, ist nicht möglich, da das Programm auch hier
+                        einen
+                        Fehler anzeigen wird.
+                        Bei richtiger Eingabe werden alle Werte, durch parsen, zu Strings umgewandelt.
+                    </p>
+                    <p>
+                        Wenn mehr als ein Objekt in der Liste gespeichert ist kann eine Auswahl von 2 Objekten, egal an
+                        welcher Position in der List, getroffen werden.
+                        Bei mehr oder weniger Objekten wird ein Hinweis auf einem leeren Label angezeigt.
+                        Bei zwei ausgewählten Objekten kann man den "Fight" Button betätigen und das Programm
+                        durchläuft mit den einzelnen Objekten die Serviceklassen.
+                    </p>
+                    <p>
+                        Dabei werden nicht die einzelnen Werte der Objekte an die jeweilge Serviceklasse übergeben
+                        sondern
+                        die Objekte als ganzes, sprich als String Array.
+                        In der jeweiligen Service Klasse werden die benötigten Werte, durch parsen, in int oder double
+                        Werte
+                        umgewandelt um sie weiter zu verarbeiten.
+                        In einer if-else Kontrollstruktur oder einer switch Kontrollstruktur werden den Werten Punkte
+                        zugewiesen.
+                        Dieses vorgehen wiederholt sich für die einzelnen Werte der Objekte, im Anschluss werden alle
+                        Ergebnisse der einzelnen Serviceklassen zusammen gerechnet.
+                    </p>
+                    <p>
+                        In einer weiteren if-else Kontrollstruktur wird das Objekt mir der höchsten Punktzahl ermittelt.
+                        Der Name des Objektes wird im Siegerlabel angezeigt, das Objekt mit der niedrigeren Punktzahl
+                        wird
+                        automatisch aus der Liste gelöscht.
+                    </p>
+                </article>
+            </div>
         </div>
     </div>
 
