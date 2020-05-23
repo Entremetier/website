@@ -289,7 +289,7 @@ footer{
   margin-top: 3rem;
 }
 
-@include media-breakpoint-only(lg) {
+@include media-breakpoint-between(md, lg) {
 
   .head-image{
     display: none;
@@ -299,7 +299,6 @@ footer{
     width: 32rem;
     height: 18rem;
     outline: none;
-    margin-bottom: 0;
   }
 
   .carousel{
@@ -311,49 +310,7 @@ footer{
   }
 }
 
-@include media-breakpoint-only(md) {
-
-  .head-image{
-    display: none;
-  }
-
-  .carousel{
-    display: none;
-  }
-
-  .video-player{
-    width: 32rem;
-    height: 18rem;
-    outline: none;
-    margin-bottom: 0;
-  }
-
-  .description{
-    text-align: left;
-  }
-}
-
-@include media-breakpoint-only(sm) {
-
-  .head-image{
-    display: none;
-  }
-
-  .carousel{
-    display: none;
-  }
-
-  .video-player{
-    display: none;
-    margin-bottom: 0;
-  }
-
-  .description{
-    text-align: left;
-  }
-}
-
-@include media-breakpoint-only(xs) {
+@include media-breakpoint-between(xs, sm) {
 
   .head-image{
     display: none;

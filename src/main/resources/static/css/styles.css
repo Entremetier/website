@@ -10110,7 +10110,7 @@ footer {
   margin-top: 3rem;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
   .head-image {
     display: none;
   }
@@ -10119,7 +10119,6 @@ footer {
     width: 32rem;
     height: 18rem;
     outline: none;
-    margin-bottom: 0;
   }
 
   .carousel {
@@ -10130,45 +10129,7 @@ footer {
     text-align: left;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .head-image {
-    display: none;
-  }
-
-  .carousel {
-    display: none;
-  }
-
-  .video-player {
-    width: 32rem;
-    height: 18rem;
-    outline: none;
-    margin-bottom: 0;
-  }
-
-  .description {
-    text-align: left;
-  }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .head-image {
-    display: none;
-  }
-
-  .carousel {
-    display: none;
-  }
-
-  .video-player {
-    display: none;
-    margin-bottom: 0;
-  }
-
-  .description {
-    text-align: left;
-  }
-}
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .head-image {
     display: none;
   }
