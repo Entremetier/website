@@ -2,6 +2,9 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML5 & CSS3</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
@@ -23,7 +26,6 @@
 
     <link href="/css/styles.css" rel="stylesheet" media="screen"/>
 
-    <title>HTML5 & CSS3 Projekt</title>
 </head>
 <body>
 <!--    === Header ===-->
@@ -122,17 +124,38 @@
 <section class="dark">
 
     <div class="container">
-        <div class="mb-5 text-center"><img src="img/java/java-problem/imac-464737_640.jpg"
-                                           alt="Java Bild"></div>
-        <div class="col-12 nomarging">
-            <h4 class="problem-title text-center">Die Herausforderung</h4>
-            <p class="font-italic text-center mb-5">Beschreibung des größten Problems</p>
-            <article>So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
+        <div class="java-titel mb-5 text-center">
+            <video class="video-player" src="mov/html/webdesign-made-simple.mp4" controls>
+                <p>
+                    Das Video kann leider nicht wiedergegeben werden.
+                </p>
+            </video>
+        </div>
+        <div class="col-12 nomarging text-center">
+            <h4 class="headline-project mb-5">WEBDESIGN made simple</h4>
+            <article>
+                <p>
+                    Dies ist mein erstes Projekt im Bereich HTML und CSS, zuvor hatte ich keinerlei Erfahrung.
+                    Es war für mich wichtig HTML und CSS ohne Bootstrap und SCSS zu lernen, obwohl dies heute den
+                    Standard darstellt.
+                    Trotzdem bin ich davon überzeugt das man sich nur mit einem gutem Basiswissen schnell weiter entwickeln
+                    kann.
+                </p>
+                <p>
+                    In diesem Projekt kann man sowohl über die Navigationsleiste als auch über verschiedene Links, die
+                    als Buttons gestylt sind, navigieren.
+                    Die Regex, um die Mailadresse im Newsletter zu validieren, habe ich im Internet gefunden und
+                    eingesetzt.
+                    Da dies mein erstes Projekt mit HTML und CSS war habe ich mich an die Vorgaben des Kursleiters gehalten,
+                    mit steigender Erfahrung setze ich Projekte immer freier um und nutze natürlich die Vorteile von
+                    Bootstrap.
+                </p>
+                <p>
+                    Das Wissen welches ich aus diesem Kurs mitgenommen habe, habe ich genutzt um direkt im Anschluss einen
+                    Kurs in Bootstrap und Sass zu absolvieren.
+                    Das Projekt aus diesem Kurs können sie sich
+                    <a class="link" href="golden.html#bootstrap-intro">hier</a> ansehen.
+                </p>
             </article>
         </div>
     </div>
@@ -146,8 +169,7 @@
 
     <div class="container">
 
-        <h4 class="problem-title text-center">Welche Besonderheiten gibt es noch</h4>
-        <p class="font-italic text-center text-muted mb-5">Beschreibung des größten Problems</p>
+        <h4 class="headline-project text-center mb-5">Quellcode aus dem Projekt</h4>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -155,58 +177,47 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/index/this-carousel/backend-spring-springApplication-run-method.png"
+                    <img src="img/html/carousel/mobile-nav.PNG"
                          class="d-block w-100"
-                         alt="Bild der Klasse die das Spring Projekt startet.">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Die SpringApplication Klasse</h5>
-                        <p>Die Methode run(), diese sorgt für den start der Application.</p>
+                         alt="Erstellen einer Navigationsleiste für Mobile Endgeräte">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Mobile Nav</h5>
+                        <p>
+                            Eine Navigationsleiste für Mobile Endgeräte, Hamburger Icon mit HTML Entity
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/backend-spring-controller.png" class="d-block w-100"
-                         alt="Der Controller für die index.html">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Der Controller für die index.html</h5>
-                        <p>Die Methode bearbeitet die Anfrage und hat als Rückgabewert einen String, dieser verweist
-                            auf die Seit die im templates Ordner aufzurufen ist.</p>
+                    <img src="img/html/carousel/newsletter-email-regex.PNG" class="d-block w-100"
+                         alt="Email Validierung durch Regex">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Regex</h5>
+                        <p>
+                            Email Validierung durch Regex (Regular expressions)
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
-                         alt="Bootstrap Klassen einer Navbar">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Bootstrap Navbar</h5>
-                        <p>Aufbau einer Navbar mit, von Bootstrap, zur verfügung gestellten Klassen.</p>
+                    <img src="img/html/carousel/grid-media-querie.PNG" class="d-block w-100"
+                         alt="Grid System erstellen und Media Queries setzen">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Grid System</h5>
+                        <p>
+                            Grid System erstellen und Media Queries setzen
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-sass-I.png" class="d-block w-100"
-                         alt="media query mit Sass">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Media Query mit Sass</h5>
-                        <p>Bearbeiten einer Media Query mit Bootstrap und Sass.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-sass-II.png" class="d-block w-100"
-                         alt="Verwenden von Variablen mit Sass">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Variablen in Sass</h5>
-                        <p>Ein Vorteil von Sass ist der Einsatz von Variablen.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/index/this-carousel/javascript-animate-image.png" class="d-block w-100"
-                         alt="JavaScript Methode">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>JavaScript</h5>
-                        <p>Um die Website nicht statisch zu programmieren kann JavaScript eingesetzt werden</p>
+                    <img src="img/html/carousel/animation-logo.PNG" class="d-block w-100"
+                         alt="CSS Eigenschaften für die Animation des Logos">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Animation</h5>
+                        <p>
+                            CSS Eigenschaften für die Animation des Logos
+                        </p>
                     </div>
                 </div>
             </div>
@@ -239,10 +250,10 @@
                 <article>
                 <p>
                     Da ich keine Vorkenntnisse in HTML5 und CSS3 hatte, diente dieser Kurs dazu mir Grundlagen anzueignen.
-                    Das erworbene Wissen hat mir beim realisieren meiner eigenen Webseite sehr geholfen, somit stellt dieses
-                    Projekt meinen aktuellen Wissensstand, in HTML5 und CSS3 dar.
+                    Das erworbene Wissen hat mir beim realisieren meiner eigenen Webseite sehr geholfen, somit stellt diese
+                    Webseite meinen aktuellen Wissensstand, in HTML5 und CSS3 dar.
                     Ich bin noch nicht da wo ich mich, in Zukunft, selbst in diesem Bereich sehe, aber ich
-                    habe mein Wissen genutzt um dieses Projekt umzusetzen und um meine Kenntnisse in den
+                    habe mein Wissen genutzt um mein Projekt umzusetzen und um meine Kenntnisse in den
                     verschiedenen Bereichen darzustellen. Dafür ist ein gutes Grundwissen in HTML und CSS
                     Vorraussetzung gewesen.
                 </p>
