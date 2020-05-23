@@ -10077,6 +10077,10 @@ h3 {
   }
 }
 
+footer {
+  font-size: 1.2rem;
+}
+
 .jumbotron-other > h5 {
   margin-top: 2rem;
 }
