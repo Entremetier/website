@@ -286,7 +286,7 @@ footer{
 }
 
 .list{
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 @include media-breakpoint-only(lg) {
@@ -295,6 +295,10 @@ footer{
     width: 48rem;
     height: 27rem;
     outline: none;
+  }
+
+  .list{
+    margin-top: 8rem;
   }
 }
 
@@ -305,15 +309,15 @@ footer{
     height: 18rem;
     outline: none;
   }
+
+  .list{
+    margin-top: 3rem;
+  }
 }
 
 @include media-breakpoint-between(md, lg) {
 
   .head-image{
-    display: none;
-  }
-
-  .carousel{
     display: none;
   }
 
@@ -342,10 +346,10 @@ footer{
   }
 
   .list{
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
-  .list-2{
+  .hide-list{
     display: none;
   }
 }
