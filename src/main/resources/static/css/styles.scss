@@ -265,7 +265,7 @@ footer{
 }
 
 .headline-project{
-  padding-bottom: .8rem;
+  padding-bottom: .5rem;
   border-bottom: 1px solid darkgray;
 }
 
@@ -289,16 +289,28 @@ footer{
   margin-top: 3rem;
 }
 
-@include media-breakpoint-between(md, lg) {
+@include media-breakpoint-only(lg) {
 
-  .head-image{
-    display: none;
+  .video-player{
+    width: 48rem;
+    height: 27rem;
+    outline: none;
   }
+}
+
+@include media-breakpoint-only(md) {
 
   .video-player{
     width: 32rem;
     height: 18rem;
     outline: none;
+  }
+}
+
+@include media-breakpoint-between(md, lg) {
+
+  .head-image{
+    display: none;
   }
 
   .carousel{
@@ -328,11 +340,14 @@ footer{
   .description{
     text-align: left;
   }
-}
 
-.headline-list{
-  padding-bottom: .4rem;
-  border-bottom: 1px solid darkgray;
+  .list{
+    margin-top: 0;
+  }
+
+  .list-2{
+    display: none;
+  }
 }
 
 a:hover{

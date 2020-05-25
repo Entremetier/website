@@ -10086,7 +10086,7 @@ footer {
 }
 
 .headline-project {
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid darkgray;
 }
 
@@ -10110,15 +10110,23 @@ footer {
   margin-top: 3rem;
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  .head-image {
-    display: none;
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .video-player {
+    width: 48rem;
+    height: 27rem;
+    outline: none;
   }
-
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
   .video-player {
     width: 32rem;
     height: 18rem;
     outline: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .head-image {
+    display: none;
   }
 
   .carousel {
@@ -10146,12 +10154,15 @@ footer {
   .description {
     text-align: left;
   }
-}
-.headline-list {
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid darkgray;
-}
 
+  .list {
+    margin-top: 0;
+  }
+
+  .list-2 {
+    display: none;
+  }
+}
 a:hover {
   text-decoration: none;
 }

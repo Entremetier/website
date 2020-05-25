@@ -86,9 +86,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-5">
+            <div class="col-xl-5 col-lg-12">
                 <h1 class="headline-project">Bootstrap und Sass</h1>
-                <p class="font-italic text-muted mb-5">
+                <p class="font-italic text-muted pb-3">
                     Webprojekt<span class="date">April 2020</span>
                 </p>
                 <article>
@@ -113,8 +113,9 @@
                     </p>
                 </article>
             </div>
-            <div class="col-6 offset-1 text-center head-image"><img src="img/bootstrap/bootstrap-title/statistic-sm.png"
-                                                                    alt="Java Bild"></div>
+            <div class="col-xl-6 offset-xl-1 text-center head-image"><img
+                    src="img/bootstrap/bootstrap-title/statistic-sm.png"
+                    alt="Java Bild"></div>
         </div>
     </div>
 
@@ -126,18 +127,57 @@
 <section class="dark">
 
     <div class="container">
-        <div class="mb-5 text-center"><img src="img/java/java-problem/imac-464737_640.jpg"
-                                           alt="Java Bild"></div>
-        <div class="col-12 nomarging">
-            <h4 class="problem-title text-center">Die Herausforderung</h4>
-            <p class="font-italic text-center mb-5">Beschreibung des größten Problems</p>
-            <article>So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-                So wurde dieses Problem gelöst. So wurde dieses Problem gelöst. So wurde dieses Problem gelöst.
-            </article>
+        <div class="row">
+            <div class="col-12 text-center">
+                <video class="video-player" src="mov/java/java-fun-fight-app.mp4" controls>
+                    <p>
+                        Das Video kann leider nicht wiedergegeben werden.
+                    </p>
+                </video>
+            </div>
+            <div class="col-12 text-center">
+                <h4 class="headline-project mb-5">Fun Fight Application</h4>
+                <article class="description">
+                    <p>
+                        Die Werte der einzelnen Objekte werden über Textfelder eingegeben. Die Werte durchlaufen eine
+                        Validierung um die Erfüllung der Vorgaben zu überprüfen.
+                        Die Werte werden in einer List, durch betätigen eines Speichern Buttons, gespeichert.
+                        Sollte ein Feld nicht korrekt ausgefüllt sein, wird in diesem ein Hinweis eingeblendet welcher
+                        Fehler
+                        vorliegt.
+                        Wenn das Feld wieder nicht korrekt ausgefüllt wird, wird ein neuer Hinweis eingeblendet.
+                        Das Übernehmen eines solchen Hinweises, als Wert, ist nicht möglich, da das Programm auch hier
+                        einen
+                        Fehler anzeigen wird.
+                        Bei richtiger Eingabe werden alle Werte, durch parsen, zu Strings umgewandelt.
+                    </p>
+                    <p>
+                        Wenn mehr als ein Objekt in der Liste gespeichert ist kann eine Auswahl von 2 Objekten, egal an
+                        welcher Position in der List, getroffen werden.
+                        Bei mehr oder weniger Objekten wird ein Hinweis auf einem leeren Label angezeigt.
+                        Bei zwei ausgewählten Objekten kann man den "Fight" Button betätigen und das Programm
+                        durchläuft mit den einzelnen Objekten die Serviceklassen.
+                    </p>
+                    <p>
+                        Dabei werden nicht die einzelnen Werte der Objekte an die jeweilge Serviceklasse übergeben
+                        sondern
+                        die Objekte als ganzes, sprich als String Array.
+                        In der jeweiligen Service Klasse werden die benötigten Werte, durch parsen, in int oder double
+                        Werte
+                        umgewandelt um sie weiter zu verarbeiten.
+                        In einer if-else Kontrollstruktur oder einer switch Kontrollstruktur werden den Werten Punkte
+                        zugewiesen.
+                        Dieses vorgehen wiederholt sich für die einzelnen Werte der Objekte, im Anschluss werden alle
+                        Ergebnisse der einzelnen Serviceklassen zusammen gerechnet.
+                    </p>
+                    <p>
+                        In einer weiteren if-else Kontrollstruktur wird das Objekt mir der höchsten Punktzahl ermittelt.
+                        Der Name des Objektes wird im Siegerlabel angezeigt, das Objekt mit der niedrigeren Punktzahl
+                        wird
+                        automatisch aus der Liste gelöscht.
+                    </p>
+                </article>
+            </div>
         </div>
     </div>
 
@@ -146,12 +186,11 @@
 
 <!--    === Bootstrap-Carousel ===-->
 
-<section class="light">
+<section class="light carousel">
 
     <div class="container">
 
-        <h4 class="problem-title text-center">Welche Besonderheiten gibt es noch</h4>
-        <p class="font-italic text-center text-muted mb-5">Beschreibung des größten Problems</p>
+        <h4 class="headline-project text-center mb-5">Quellcode aus dem Projekt</h4>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -159,58 +198,47 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/index/this-carousel/backend-spring-springApplication-run-method.png"
+                    <img src="img/java/carousel/validation.PNG"
                          class="d-block w-100"
-                         alt="Bild der Klasse die das Spring Projekt startet.">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Die SpringApplication Klasse</h5>
-                        <p>Die Methode run(), diese sorgt für den start der Application.</p>
+                         alt="Validierung in Java">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Validierung</h5>
+                        <p>
+                            Validierung der Daten durch if-else Kontrollstruktur
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/backend-spring-controller.png" class="d-block w-100"
-                         alt="Der Controller für die index.html">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Der Controller für die index.html</h5>
-                        <p>Die Methode bearbeitet die Anfrage und hat als Rückgabewert einen String, dieser verweist
-                            auf die Seit die im templates Ordner aufzurufen ist.</p>
+                    <img src="img/java/carousel/bmi.png" class="d-block w-100"
+                         alt="Berechnung des BMI in Java">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Body Mass Index</h5>
+                        <p>
+                            Berechnung des BMI und Vergabe der Punkte
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-bootstrap-I.png" class="d-block w-100"
-                         alt="Bootstrap Klassen einer Navbar">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Bootstrap Navbar</h5>
-                        <p>Aufbau einer Navbar mit, von Bootstrap, zur verfügung gestellten Klassen.</p>
+                    <img src="img/java/carousel/sportlichkeit.PNG" class="d-block w-100"
+                         alt="Switch Kontrollstruktur in Java">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Switch</h5>
+                        <p>
+                            Alternative zur if-else Kontrollstruktur
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-sass-I.png" class="d-block w-100"
-                         alt="media query mit Sass">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Media Query mit Sass</h5>
-                        <p>Bearbeiten einer Media Query mit Bootstrap und Sass.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/index/this-carousel/frontend-sass-II.png" class="d-block w-100"
-                         alt="Verwenden von Variablen mit Sass">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Variablen in Sass</h5>
-                        <p>Ein Vorteil von Sass ist der Einsatz von Variablen.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/index/this-carousel/javascript-animate-image.png" class="d-block w-100"
-                         alt="JavaScript Methode">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>JavaScript</h5>
-                        <p>Um die Website nicht statisch zu programmieren kann JavaScript eingesetzt werden</p>
+                    <img src="img/java/carousel/array.PNG" class="d-block w-100"
+                         alt="Array in Java">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>String Array</h5>
+                        <p>
+                            Verarbeitung eines Array
+                        </p>
                     </div>
                 </div>
             </div>
@@ -235,9 +263,9 @@
     <div class="container">
         <h4 class="col-12 text-center mb-5">Übersicht einiger Themen die im Kurs vermittelt wurden</h4>
         <div class="row">
-            <div class="col-4">
-                <h4 class="headline-list">Allgemeines über den Kurs</h4>
-                <p class="font-italic text-muted mb-3">
+            <div class="col-lg-4 col-md-12">
+                <h4 class="headline-project">Allgemeines über den Kurs</h4>
+                <p class="font-italic text-muted mb-4">
                     Zeitraum<span class="date">April bis Mai 2020</span>
                 </p>
                 <article>
@@ -252,7 +280,7 @@
                     </p>
                 </article>
             </div>
-            <div class="col-3 mt-5 ml-5 mr-3">
+            <div class="col-lg-4 col-md-6 col-sm-6 list list-2">
                 <ul>
                     <li>Bootstrap einbinden</li>
                     <li>Mobile first Prinzip</li>
@@ -269,7 +297,7 @@
                     <li>Validierung</li>
                 </ul>
             </div>
-            <div class="col-4 mt-5 ml-3">
+            <div class="col-lg-4 col-md-6 col-sm-6 list">
                 <ul>
                     <li>Popover</li>
                     <li>Events</li>
