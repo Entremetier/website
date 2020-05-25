@@ -10137,7 +10137,7 @@ footer {
     display: none;
   }
 
-  .description {
+  .description-text-left {
     text-align: left;
   }
 }
@@ -10155,7 +10155,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .description {
+  .description-text-left {
     text-align: left;
   }
 
