@@ -10171,4 +10171,20 @@ a:hover {
   text-decoration: none;
 }
 
+.carousel-control-next-mySql,
+.carousel-control-prev-mySql {
+  filter: invert(100%);
+}
+
+.carousel-caption-mySql {
+  position: relative;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 10;
+}
+
 /*# sourceMappingURL=styles.css.map */
