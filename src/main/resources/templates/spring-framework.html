@@ -99,12 +99,8 @@
                         Es können die Besitzer mit dem jeweiligen Haustier durch ein Suchfeld aus der Datenbank
                         herausgesucht werden.
                         Darüber hinaus können Ärzte mit ihrem jeweiligen Spezialgebieten angezeigt werden.
-                        Neue Besitzer und Haustiere können hinzugefügt werden, werden aber auf Grund der verwendeten H2
-                        Datenbank nicht persistiert.
-                    </p>
-                    <p>
-                        Um Daten zu persistieren muss eine Datenbank, zum Beispiel MySQL, im pom.xml als dependency
-                        eingebunden und in den application.properties konfiguriert werden.
+<!--                        Neue Besitzer und Haustiere können hinzugefügt werden, werden aber auf Grund der verwendeten H2-->
+<!--                        Datenbank nicht persistiert.-->
                     </p>
                     <p>
                         <a class="link" href="https://github.com/Entremetier/pet-clinic" target="_blank">Hier</a>
@@ -142,24 +138,33 @@
 
             <article class="description-text-left">
                 <p>
-                    Wie im Video gezeigt können den Haustieren, der jeweiligen Besitzer neue Besuche hinzugefügt oder
-                    die Daten der Besitzer verändert bzw. ein neues Haustier hinzugefügt werden.
-                    Darüber hinaus kann auch ein neuer Besitzer mit Haustier hinzugfügt werden.
+                    Die Spring Pet Clinic ist älter als das Spring Framework selbst, es stammt ursprünglich aus Java EE.
+                    Das Projekt wurde an das Spring Framework angepasst und ist seit dem ständiger Begleiter für all
+                    jene die sich mit Spring beschäftigen.
+                    Mein Kursleiter hat das Projekt an Spring Framework 5 angepasst um einige Neuerungen, wie zum Beispiel
+                    die dependency injection durch den Konstruktor, aufzuzeigen.
+                    Dies ermöglichte mir einen guten Start ins Spring Framework, da dieses Projekt im Kurs von Beginn
+                    an aufgebaut und erklärt wird.
+                </p>
+                <p>
+                    In diesem Projekt können sowohl den Haustieren, der jeweiligen Besitzer, neue Besuche als auch
+                    die Daten der Besitzer verändert bzw. ein neues Haustier dem Besitzer hinzugefügt werden.
                 </p>
                 <p>
                     Dafür leitet der jeweilige Controller, über RequestMapping zur gewünschten Seite weiter. In der
                     Serviceklasse ist die Logik gesammelt und führt den jeweiligen Befehl aus.
                     Über das CrudRepository stehen die Methoden zum erstellen, auslesen, updaten und löschen von Daten
-                    zur verfügung. Eigene Methoden können aber jederzeit hinzugefügt werden.
-                    Durch PostMapping im jeweiligen Controller werden die Daten hinzugefügt.
+                    zur Verfügung. Eigene Methoden können jederzeit hinzugefügt werden.
+                    Durch PostMapping im jeweiligen Controller werden die Daten, der Datenbank hinzugefügt.
                 </p>
                 <p>
                     Die Daten werden aktuell noch nicht persistiert, sondern nur in der H2 Datenbank gespeichert.
-                    Eine MySQL Datenbank werde ich im späteren Verlauf noch hinzufügen, die dependency ist schon im pom.
+                    Eine MySQL Datenbank werde ich im späteren Verlauf noch hinzufügen, die dependency ist schon im pom
+                    enthalten.
                 </p>
                 <p>
                     Das triggern einer Exception ist über den Errorbutton zu erreichen. Es wird zu einer neuen Page
-                    weitergeleitet, dort wird die die Message der Runtime Exception angezeigt.
+                    weitergeleitet, dort wird die Message der Runtime Exception angezeigt.
                 </p>
                 <p>
                     Um die Liste der Ärzte anzeigen zu können wurde eine foreach-loop von Thymeleaf verwendet.
@@ -181,7 +186,7 @@
 
     <div class="container">
 
-        <h4 class="headline-project text-center mb-5">Quellcode aus dem Projekt</h4>
+        <h4 class="headline-project text-center mb-5">Auszüge des Quellcodes aus dem Projekt</h4>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -210,7 +215,7 @@
                     <div class="carousel-caption d-none d-md-block text-right">
                         <h5>Crud Repository</h5>
                         <p>
-                            Implizit die CRUD-Methoden und explizit zwei eigenen Methoden
+                            Klasse enthält implizit die CRUD-Methoden und explizit zwei eigenen Methoden
                         </p>
                     </div>
                 </div>
@@ -250,7 +255,7 @@
                     <div class="carousel-caption d-none d-md-block text-right">
                         <h5>HTML und Thymeleaf</h5>
                         <p>
-                            Thymleaf foreach um die Daten in der Tabelle anzuzeigen
+                            Thymleaf foreach um die Daten, aus der Datenbank, in der Tabelle anzuzeigen
                         </p>
                     </div>
                 </div>
@@ -283,18 +288,18 @@
                 </p>
                 <article>
                     <p>
-                        Vorraussichtlich werde ich noch ein Jahr benötigen um diesen Kurs so durchzuarbeiten das ich
-                        alles bis ins Detail verstehe.
-                        Das ist eine Folge davon das der Kurs bei Neuerungen des Frameworks ein Update bekommt um das
-                        neueste Wissen zu vermitteln.
-                        Dies hat aber auch den Vorteil das man zukünftig alle Neuerungen für Spring Framework 5 in
-                        diesem Kurs erhält.
-                        Da es mir in manchen Bereichen noch an der nötigen Erfahrung fehlt muss ich manche Dinge im Kurs
-                        erst einmal hinnehmen wie sie sind um die Zusammenhänge im späteren Verlauf zu verstehen.
+                        Meine persönliche Zukunft sehe ich darin mich auf das Spring Framework zu spezialisieren da ich
+                        in Microservice Applicationen die Zukunft sehe und auch meine eigenen Projekte damit umsetzen
+                        werde.
+                        Ich habe mich für diesen Kurs entschieden da es sich um einen der Erfolgreichsten Kurse in
+                        diesem Bereich handelt.
+                        Da es mir in manchen Bereichen noch an der nötigen Erfahrung fehlt muss ich manchmal Dinge im
+                        Kurs erst einmal hinnehmen wie sie sind um die Zusammenhänge im späteren Verlauf zu verstehen.
+                        Dies Motiviert mich wieder um mich mit neuen Technologien zu beschäftigen.
                     </p>
                 </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 list hide-list">
+            <div class="col-lg-4 col-md-6 list hide-list">
                 <ul>
                     <li>Dependency Injection</li>
                     <li>SOLID Prinzipien</li>
