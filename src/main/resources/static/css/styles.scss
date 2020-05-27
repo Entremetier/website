@@ -228,10 +228,6 @@ $active-color: #00bfff;
   }
 }
 
-
-//=== Projekte ===
-
-
 //=== Kontakt ===
 
 .dark{
@@ -239,6 +235,10 @@ $active-color: #00bfff;
   .button{
     background-color: $primary-color;
     color: $text-color-white;
+  }
+
+  .screenreader{
+    display: none;
   }
 
     .contact-message{

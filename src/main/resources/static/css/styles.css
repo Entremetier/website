@@ -10068,6 +10068,9 @@ h3 {
   background-color: #0275d8;
   color: #FFF;
 }
+.dark .screenreader {
+  display: none;
+}
 .dark .contact-message {
   height: 6rem;
 }
