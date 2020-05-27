@@ -9893,6 +9893,7 @@ h3 {
 }
 .link:hover {
   color: #0275d8;
+  text-decoration: none;
 }
 
 .page-header {
@@ -9909,16 +9910,16 @@ h3 {
   font-size: 1.6rem;
 }
 
+.navbar-dark .navbar-brand {
+  padding-top: 0.3rem;
+  padding-left: 0;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #0275d8;
-}
-
-.navbar-dark .navbar-brand {
-  padding-top: 0.3rem;
-  padding-left: 0;
 }
 
 .navbar-brand.nav-item.nav-link:hover {
@@ -10001,7 +10002,7 @@ h3 {
     text-align: right;
   }
 
-  #image {
+  #profile-image {
     padding-bottom: 3rem;
   }
 }
@@ -10022,7 +10023,7 @@ h3 {
     margin-bottom: 3rem;
   }
 
-  #image {
+  #profile-image {
     display: none;
   }
 }
@@ -10043,7 +10044,7 @@ h3 {
     margin-bottom: 3rem;
   }
 
-  #image {
+  #profile-image {
     display: none;
   }
 }
@@ -10084,7 +10085,7 @@ footer {
   font-size: 1.2rem;
 }
 
-.jumbotron-other > h5 {
+.jumbotron-template > h5 {
   margin-top: 2rem;
 }
 
@@ -10170,10 +10171,6 @@ footer {
     display: none;
   }
 }
-a:hover {
-  text-decoration: none;
-}
-
 .carousel-control-next-mySql,
 .carousel-control-prev-mySql {
   filter: invert(100%);

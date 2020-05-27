@@ -11,12 +11,12 @@ $active-color: #00bfff;
 
 //=== Global ===
 
-.light{
+.light {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
 }
 
-.dark{
+.dark {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   background-color: $secondary-backround-color;
@@ -24,18 +24,19 @@ $active-color: #00bfff;
   border-bottom: 1px solid #DDDDDD;
 }
 
-.link{
+.link {
   color: gray;
 
-  &:hover{
+  &:hover {
     color: $primary-color;
+    text-decoration: none;
   }
 }
 
 
 //=== Page-Header ===
 
-.page-header{
+.page-header {
   background-image: url("/img/header/server-vanilla.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,22 +49,22 @@ $active-color: #00bfff;
   background-color: transparent;
 }
 
-.brand-name{
+.brand-name {
   font-size: 1.6rem;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-  color: #FFF;
-
-  &:hover{
-    color: $primary-color;
-
-  }
 }
 
 .navbar-dark .navbar-brand {
   padding-top: .3rem;
   padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+
+  &:hover {
+    color: $primary-color;
+
+  }
 }
 
 .navbar-brand.nav-item.nav-link:hover {
@@ -73,31 +74,31 @@ $active-color: #00bfff;
 .navbar-dark .navbar-nav .dropdown-item {
   color: #FFF;
 
-  &:hover{
+  &:hover {
     color: $primary-color;
     background: none;
     text-decoration: none;
   }
 }
 
-.navbar-dark .navbar-nav .dropdown-menu{
+.navbar-dark .navbar-nav .dropdown-menu {
   background: none;
   border: none;
 }
 
-.navbar-dark .active{
+.navbar-dark .active {
   color: $active-color;
 }
 
-.navbar-dark .navbar-nav .active{
+.navbar-dark .navbar-nav .active {
   background-color: transparent;
   color: $active-color;
 }
 
-.navbar-dark .navbar-nav .dropdown .active{
+.navbar-dark .navbar-nav .dropdown .active {
   color: $active-color;
 
-  &:hover{
+  &:hover {
     color: $primary-color;
   }
 }
@@ -126,7 +127,7 @@ $active-color: #00bfff;
 
 //=== Anschreiben ===
 
-.signature{
+.signature {
   font-size: 1.2rem;
 }
 
@@ -137,7 +138,7 @@ $active-color: #00bfff;
   margin-top: 80px;
   text-align: right;
 
-  & ~ p{
+  & ~ p {
     text-align: right;
   }
 }
@@ -152,12 +153,12 @@ $active-color: #00bfff;
     margin-top: 0;
     text-align: right;
 
-    & ~ p{
+    & ~ p {
       text-align: right;
     }
   }
 
-  #image{
+  #profile-image {
     padding-bottom: 3rem;
   }
 }
@@ -172,16 +173,16 @@ $active-color: #00bfff;
     margin-top: 3rem;
     text-align: left;
 
-    & ~ p{
+    & ~ p {
       text-align: left;
     }
   }
 
-  .about-me-paragraph{
+  .about-me-paragraph {
     margin-bottom: 3rem;
   }
 
-  #image{
+  #profile-image {
     display: none;
   }
 }
@@ -196,21 +197,21 @@ $active-color: #00bfff;
     margin-top: 3rem;
     text-align: left;
 
-    & ~ p{
+    & ~ p {
       text-align: left;
     }
   }
 
-  .about-me-paragraph{
+  .about-me-paragraph {
     margin-bottom: 3rem;
   }
 
-  #image{
+  #profile-image {
     display: none;
   }
 }
 
-.social-media-icon{
+.social-media-icon {
   color: #000;
   font-size: 1.5rem;
   border: 2px solid #000;
@@ -221,7 +222,7 @@ $active-color: #00bfff;
   text-align: center;
   margin: 0.4rem 0.2rem 0.2rem 0.2rem;
 
-  &:hover{
+  &:hover {
     border: 2px solid $primary-color;
     color: $primary-color;
     text-decoration: none;
@@ -230,22 +231,22 @@ $active-color: #00bfff;
 
 //=== Kontakt ===
 
-.dark{
+.dark {
 
-  .button{
+  .button {
     background-color: $primary-color;
     color: $text-color-white;
   }
 
-  .screenreader{
+  .screenreader {
     display: none;
   }
 
-    .contact-message{
-      height: 6rem;
+  .contact-message {
+    height: 6rem;
 
-      @include media-breakpoint-up(sm) {
-        height: 100%;
+    @include media-breakpoint-up(sm) {
+      height: 100%;
     }
   }
 }
@@ -253,23 +254,23 @@ $active-color: #00bfff;
 
 //=== Footer ===
 
-footer{
+footer {
   font-size: 1.2rem;
 }
 
 
 //=== Java Template ===
 
-.jumbotron-other > h5{
+.jumbotron-template > h5 {
   margin-top: 2rem;
 }
 
-.headline-project{
+.headline-project {
   padding-bottom: .5rem;
   border-bottom: 1px solid darkgray;
 }
 
-.date{
+.date {
   float: right;
 }
 
@@ -278,92 +279,90 @@ footer{
   display: flex;
 }
 
-.video-player{
+.video-player {
   width: 64rem;
   height: 36rem;
   outline: none;
   margin-bottom: 3rem;
 }
 
-.list{
+.list {
   margin-top: 4.5rem;
 }
 
 @include media-breakpoint-only(lg) {
 
-  .video-player{
+  .video-player {
     width: 48rem;
     height: 27rem;
     outline: none;
   }
 
-  .list{
+  .list {
     margin-top: 8rem;
   }
 }
 
 @include media-breakpoint-only(md) {
 
-  .video-player{
+  .video-player {
     width: 32rem;
     height: 18rem;
     outline: none;
   }
 
-  .list{
+  .list {
     margin-top: 3rem;
   }
 }
 
 @include media-breakpoint-between(md, lg) {
 
-  .head-image{
+  .head-image {
     display: none;
   }
 
-  .description-text-left{
+  .description-text-left {
     text-align: left;
   }
 }
 
 @include media-breakpoint-between(xs, sm) {
 
-  .head-image{
+  .head-image {
     display: none;
   }
 
-  .carousel{
+  .carousel {
     display: none;
   }
 
-  .video-player{
+  .video-player {
     display: none;
     margin-bottom: 0;
   }
 
-  .description-text-left{
+  .description-text-left {
     text-align: left;
   }
 
-  .list{
+  .list {
     margin-top: 1rem;
   }
 
-  .hide-list{
+  .hide-list {
     display: none;
   }
 }
 
-a:hover{
-  text-decoration: none;
-}
+//=== MySQL-Carousel ===
 
 .carousel-control-next-mySql,
-.carousel-control-prev-mySql{
+.carousel-control-prev-mySql {
   filter: invert(100%);
 }
 
-.carousel-caption-mySql{
+.carousel-caption-mySql {
   position: relative;
   left: 0;
   top: 0;
