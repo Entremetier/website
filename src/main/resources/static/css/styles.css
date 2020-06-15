@@ -10081,6 +10081,24 @@ h3 {
   }
 }
 
+.outputMessage {
+  height: 60rem;
+}
+
+.alert-success {
+  background-color: #79C879;
+  color: #FFF;
+  display: none;
+}
+
+.hint {
+  font-size: 0.7rem;
+}
+
+.hide {
+  display: none;
+}
+
 footer {
   font-size: 1.2rem;
 }

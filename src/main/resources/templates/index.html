@@ -331,28 +331,30 @@
                 <p class="font-italic pb-5">
                     Sie können gern dieses Kontaktformular verwenden um mich zu kontaktieren.
                 </p>
+                <div class="alert-success text-center pt-3 pb-3 mb-3">Ihre Nachricht wurde erfolgreich gesendet.</div>
             </div>
         </div>
 
-        <form action="" method="POST">
+        <form id="contactform">
 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6">
-                    <label class="screenreader" for="name"></label>
+                    <label class="screenreader" for="name">Name</label>
                     <input class="form-control mb-3" id="name" type="text" name="name" placeholder="Name *" required>
 
-                    <label class="screenreader" for="email"></label>
+                    <label class="screenreader" for="email">E-Mail-Adresse</label>
                     <input class="form-control mb-3" id="email" type="email" name="email" placeholder="E-Mail *"
                            required>
 
-                    <label class="screenreader" for="subject"></label>
-                    <input class="form-control mb-3 mb-sm-3 mb-md-0" id="subject" type="text" name="subject"
-                           placeholder="Betreff">
+                    <label class="screenreader" for="company">Firma</label>
+                    <input class="form-control mb-3 mb-sm-3 mb-md-0" id="company" type="text" name="company"
+                           placeholder="Firma *" required>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6">
-                    <label class="screenreader" for="message"></label>
+                    <label class="screenreader" for="message">Nachricht</label>
                     <textarea class="form-control contact-message" id="message" name="message" placeholder="Nachricht *"
                               required></textarea>
+                    <p class="text-muted ml-2 hint"> * Bitte alle Felder ausfüllen.</p>
                 </div>
             </div>
             <div class="text-center">
@@ -379,9 +381,13 @@
 
 </footer>
 
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
 
 <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
 
 </body>
 </html>
