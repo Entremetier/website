@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap & Sass</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="/css/styles.css" rel="stylesheet" media="screen"/>
+
+</head>
+<body>
+<!--    === Header ===-->
+
+<header class="page-header" id="header">
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand nav-item nav-link brand-name" href="index.html">Marco Happe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#aboutMe">Über&nbsp;mich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projekte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="java.html">Java</a>
+                            <a class="dropdown-item" href="spring-framework.html">Spring&nbsp;Framework</a>
+                            <a class="dropdown-item" href="webdesign.html">HTML/CSS</a>
+                            <a class="dropdown-item active" href="golden.html">Bootstrap/Sass<span
+                                    class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="mySql.html">MySQL</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-template header-jumbotron text-center font-italic text-center d-flex flex-column align-items-center mb-0">
+            <h5 class="pt-5 pb-3">Zurück zur Übersicht meines Portfolios.</h5>
+            <a class="btn btn-primary" href="index.html#projects" role="button">Mehr anzeigen</a>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!--    === Bootstrap-Intro ===-->
+
+<section class="light" id="bootstrap-intro">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-12">
+                <h1 class="headline-project">Bootstrap und Sass</h1>
+                <p class="font-italic text-muted pb-3">
+                    Webprojekt<span class="date">April 2020</span>
+                </p>
+                <article>
+                    <p>
+                        Ein weiteres Projekt über eine andere imaginäre Webdesign Firma, mit dem Namen Golden,
+                        umgesetzt mit Bootstrap und Sass.
+                    </p>
+                    <p>
+                        Die Bereiche und ihre Inhalte wurden ausschließlich mit Bootstrapklassen und Sass designed.
+                        Besonderheit ist die mobile Navbar, diese hat eine JavaScript function um den Content nicht im
+                        Header Einzublenden sondern daneben.
+                        Darüber hinaus wurde die komplette Page nach dem mobile first Prinzip entwickelt und ist
+                        dementsprechend auch responsive.
+                    </p>
+                    <p>
+                        <a  class="link" href="https://github.com/Entremetier/golden" target="_blank">Hier</a>
+                        gehts zum GitHub Repository.
+                    </p>
+                </article>
+            </div>
+            <div class="col-xl-6 offset-xl-1 text-center head-image"><img
+                    src="img/bootstrap/bootstrap-title/statistic-I.png"
+                    alt="Java Bild"></div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--    === Bootstrap-Overview ===-->
+
+<section class="dark">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h4 class="headline-project mb-3">Golden Webdesign</h4>
+                <p class="col-12 text-center font-italic text-muted mb-5">
+                    Ein kurzes Video um das Programm vorzustellen und im Anschluss eine Erklärung des Projektes
+                </p>
+
+                <div class="col-12 text-center">
+                    <video class="video-player" src="mov/bootstrap/bootstrap-golden.mp4" controls>
+                        <p>
+                            Das Video kann leider nicht wiedergegeben werden.
+                        </p>
+                    </video>
+                </div>
+
+                <article class="description-text-left">
+                    <p>
+                        Mein erstes Projekt mit Bootstrap und Sass, es diente mir die Grundlagen dieser beiden Toolkits
+                        zu verstehen.
+                        Das vermittelte Wissen aus dem Kurs, zusammen mit dem Wissen aus dem HTML5/CSS3 Kurs haben es mir
+                        ermöglicht diese Seite zu schreiben um meine Qualifikationen, auch in diesem Bereich nachzuweisen.
+                    </p>
+                    <p>
+                        Über die Seite kann mit Hilfe der Navigationsleiste gesteuert werden, dafür wurden in den einzelnen
+                        sections id's vergeben die angesteuert werden.
+                        Die komplette Seite ist dank Bootstrap responsive, nach dem Prinzip mobile first.
+                        Dabei wird die mobile Navigationsleiste über eine JavaScript function aus einem nicht sichtbaren
+                        Bereich eingeblendet.
+                        Normalerweise würde man dafür ein Plugin, zum Beispiel jQuery mmenu benutzen.
+                        Da solche Plugins kostenpflichtig sind wurde im Kurs eine andere Lösung gefunden.
+                        Ich weiße an dieser Stelle daraufhin das ich erst zum späteren Zeitpunkt einen JavaScript
+                        Kurs absolvieren werde und mich aus diesem Grund an die Vorlage des Kursleiters gehalten habe.
+                        Die function habe ich dennoch für meine Bedürfnisse angepasst, im Kurs wird die ganze Seite
+                        verschoben, in meiner Version nur das Bild im Jumbotron.
+                        Darüber hinaus habe ich JavaScript für die Einbindung der Google Datenbank und Authentifizierung,
+                        für meine eigene Webseite, benutzt.
+                    </p>
+                    <p>
+                        Wenn Sie mehr über mein Projekt erfahren möchten können Sie
+                        <a class="link" href="https://github.com/Entremetier/website" target="_blank">hier</a>
+                        den Quellcode in meinem GitHub Profil einsehen.
+                        Gern können wir auch in einem persönlichen Gespräch darüber sprechen.
+                    </p>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--    === Bootstrap-Carousel ===-->
+
+<section class="light carousel">
+
+    <div class="container">
+
+        <h4 class="headline-project text-center mb-5">Auszüge des Quellcodes aus dem Projekt</h4>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bootstrap/carousel/bootstrap-klassen.PNG"
+                         class="d-block w-100"
+                         alt="Bootstrap Klassen um die Seite responsive zu machen">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Mobile first</h5>
+                        <p>
+                            Bootstrap Klassen um die Seite responsive zu machen
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bootstrap/carousel/card-deck.PNG" class="d-block w-100"
+                         alt="Bootstrap Card Deck">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Card Deck</h5>
+                        <p>
+                            Im Gegensatz zu meiner Seite habe ich im Kurs mit einem Card Deck gearbeitet
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bootstrap/carousel/media-query.PNG" class="d-block w-100"
+                         alt="Media Query für die Darstellung einer grauen Linie zwischen Bildern">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>Media Query</h5>
+                        <p>
+                            Verantwortlich für die graue Linie zwischen den Bildern im "Über uns" Bereich
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bootstrap/carousel/jQuery.PNG" class="d-block w-100"
+                         alt="jQuery function für die mobile Navigationsleiste">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <h5>jQuery</h5>
+                        <p>
+                            Function für die mobile Navigationsleiste, wird durch click auf des Objekts mit der Klasse
+                            "navbar-toggler" oder dessen Elternelement "navbar-toggler" ist ausgelöst.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--    === Bootstrap-Liste ===-->
+
+<section class="dark">
+
+    <div class="container">
+        <h4 class="col-12 text-center mb-5">Übersicht einiger Themen die im Kurs vermittelt wurden</h4>
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <h4 class="headline-project">Allgemeines über den Kurs</h4>
+                <p class="font-italic text-muted mb-4">
+                    Zeitraum<span class="date">April bis Mai 2020</span>
+                </p>
+                <article>
+                    <p>
+                        Aufbauend auf dem HTML5 und CSS3 Kurs habe ich den Bootstrap und Sass Kurs belegt um mein Wissen
+                        in der Webentwicklung zu vertiefen und um meine Webseite mit dem Wissen aus diesen beiden Kursen
+                        umzusetzen.
+                        Schwerpunkt war für mich das Kennenlernen von Bootstrap und seinen Klassen als auch Sass und
+                        seiner unterschiedlichen Schreibweise im Vergleich zu CSS.
+                        In Zukunft plane ich einen JavaScript Kurs und eine weitere Spezialisierung in Bootstrap und
+                        Sass um meine eigene Webseite weiter zu verbessern und mein Portfolio auszubauen.
+                    </p>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 list hide-list">
+                <ul>
+                    <li>Bootstrap einbinden</li>
+                    <li>Mobile first Prinzip</li>
+                    <li>Gridsystem in Bootstrap</li>
+                    <li>Offset</li>
+                    <li>Tabellen</li>
+                    <li>Jumbotron</li>
+                    <li>Navbar</li>
+                    <li>Cards</li>
+                    <li>Formulare</li>
+                    <li>Carousel</li>
+                    <li>Dropdown</li>
+                    <li>Alerts</li>
+                    <li>Validierung</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 list">
+                <ul>
+                    <li>Popover</li>
+                    <li>Events</li>
+                    <li>Progressbar</li>
+                    <li>Scrollspy</li>
+                    <li>Flexboxen</li>
+                    <li>Responsive</li>
+                    <li>Ladezeit analysieren</li>
+                    <li>Ladezeit optimieren</li>
+                    <li>Bootstrap in SCSS File</li>
+                    <li>Variablen in Sass</li>
+                    <li>Verschachtelte Schreibweise SCSS</li>
+                    <li>Kurzschreibweise Selektor SCSS</li>
+                    <li>Kompilierung von SCSS zu CSS</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--    === Footer ===-->
+
+<footer>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <p class="mt-3 copyright-text text-center">
+                    &copy;2020 <a class="link" href="#header">Marco Happe</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

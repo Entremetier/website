@@ -1,16 +1,16 @@
 (function () {
 
-const firebaseConfig = {
-    apiKey: "",
-    authDomain: "application-7d220.firebaseapp.com",
-    databaseURL: "https://application-7d220.firebaseio.com",
-    projectId: "application-7d220",
-    storageBucket: "application-7d220.appspot.com",
-    messagingSenderId: "",
-    appId: "1:863585486332:web:aac9f7f295e64f77eb9e79"
-};
+    const firebaseConfig = {
+        apiKey: "",
+        authDomain: "application-7d220.firebaseapp.com",
+        databaseURL: "https://application-7d220.firebaseio.com",
+        projectId: "application-7d220",
+        storageBucket: "application-7d220.appspot.com",
+        messagingSenderId: "",
+        appId: "1:863585486332:web:aac9f7f295e64f77eb9e79"
+    };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
 
     const auth = firebase.auth();
 
@@ -89,7 +89,6 @@ firebase.initializeApp(firebaseConfig);
         //Promise wenn der User nicht in der DB gefunden wird
         promise.catch(e => alert(email + " konnte nicht gefunden werden. E-Mail oder Passwort falsch."));
         $('#password').val('');
-
     });
 
     //Status ob ein User eingeloggt ist oder nicht wird kontrolliert
